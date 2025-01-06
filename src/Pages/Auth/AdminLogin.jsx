@@ -18,7 +18,7 @@ function AdminLogin() {
             <input
               type="email"
               value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              
               required
               className="mt-1 block w-full border border-gray-300 rounded-md p-2"
             />
@@ -28,7 +28,7 @@ function AdminLogin() {
             <input
               type="password"
               value={password}
-              onChange={(e) => setPassword(e.target.value)}
+              
               required
               className="mt-1 block w-full border border-gray-300 rounded-md p-2"
             />
